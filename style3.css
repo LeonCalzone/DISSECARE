@@ -110,11 +110,11 @@ html, body {
     background-color: black;
 }
 .div7 img {
-    width: 725px;
+    width: 605px;
     
     display: block;
     margin: auto;
- 
+ overflow: hidden;
 }
 
 .div8 {
@@ -127,7 +127,7 @@ html, body {
     max-height: 100%;
     display: block;
     margin: auto;
-    width: 725px;
+    width: 605px;
 
 }
 
@@ -186,7 +186,7 @@ html, body {
     border: 5px solid;
     border-color: white grey grey white;
     overflow: hidden;
-    font-size: 15pt;
+    font-size: 11pt;
     padding: 20px;
     text-align: justify;
     font-family: 'GoMono'; 
