@@ -151,8 +151,8 @@ html, body {
     grid-area: 18 / 15 / 31 / 22;
     background-color: black;
     align-self: end;
-    /* background-image: url("images/smallbg.png");
-    background-size: cover; */
+    border: 5px solid;
+    border-color: darkred rgb(58, 2, 2) rgb(58, 2, 2) darkred;
 }
 .div10 img {
     width: 100%;
@@ -161,8 +161,6 @@ html, body {
     justify-content: end;
     align-self: end;
     justify-self: end;
-    border: 5px solid;
-    border-color: darkred rgb(58, 2, 2) rgb(58, 2, 2) darkred;
 }
 
 .div11 {
