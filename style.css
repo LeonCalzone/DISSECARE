@@ -1,0 +1,251 @@
+@font-face {
+    font-family: 'GoMono';
+    src: url('fonts/Go-Mono.ttf');
+}
+
+@font-face {
+    font-family: 'GoMono';
+    src: url('fonts/Go-Mono-Bold.ttf');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'GoMono';
+    src: url('fonts/Go-Mono-Italic.ttf');
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'GoMono';
+    src: url('fonts/Go-Mono-BoldItalic.ttf');
+    font-weight: bold;
+    font-style: italic;
+}
+
+body {
+    margin: 0;
+    overflow: hidden; 
+background-image: url("images/desktop.png");
+    background-size: cover;
+    height: 100vh;
+}
+
+.box-content { 
+    font-family: 'GoMono'; 
+    font-weight: normal; 
+    font-style: normal; 
+    
+ }
+
+.box-open {
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    cursor: pointer;
+    width: 80px;
+    height: auto;
+}
+
+.box-open img {
+    width: 100%;
+    height: 100%;
+}
+
+.thank-open {
+    position: absolute;
+    top: 540px;
+    left: 30px;
+    cursor: pointer;
+    width: 80px;
+    height: auto;
+}
+
+.thank-open img {
+    width: 100%;
+    height: 100%;
+}
+
+.intro-open {
+    position: absolute;
+    top: 665px;
+    left:30px;
+    cursor: pointer;
+    width: 80px;
+    height: auto;
+}
+
+.intro-open img {
+    width: 100%;
+    height: 100%;
+}
+
+.trash {
+    position: absolute;
+    top: 795px;
+    left: 30px;
+    cursor: pointer;
+    width: 80px;
+    height: auto;
+}
+
+.trash img {
+    width: 100%;
+    height: 100%;
+}
+.monster-open {
+    position: absolute;
+    top: 410px;
+    left: 30px;
+    cursor: pointer;
+    width: 80px;
+    height: auto;
+}
+
+.monster-open img {
+    width: 100%;
+    height: 100%;
+}
+
+.casefile-open {
+    position: absolute;
+    top: 150px;
+    left: 30px;
+    cursor: pointer;
+    width: 80px;
+    height: auto;
+}
+
+.casefile-open img {
+    width: 100%;
+    height: 100%;
+}
+
+.notebox-open {
+    position: absolute;
+    top: 280px;
+    left: 30px;
+    cursor: pointer;
+    width: 80px;
+    height: auto;
+}
+
+.notebox-open img {
+    width: 100%;
+    height: 100%;
+}
+
+.close-button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+}
+
+ .resizable-box {
+    position: absolute;
+    border: 5px solid;
+    border-color: white grey grey white;
+    padding: 10px;
+    background-color: lightgray;
+    overflow: auto; /* Set overflow property to handle text overflow */
+}
+
+.resizable-box#intro {
+    top: 200px;
+    left: 600px;
+    width: 700px;
+    height: 600px;
+    padding: 30px;
+}
+.resizable-box#thankyou {
+    top: 850px;
+    left: 170px;
+    width: 600px;
+    height: 200px;
+    display: none;
+}
+.resizable-box#casefile {
+    top: 105px;
+    left: 160px;
+    width: 500px;
+    height: 600px;
+    display: none;
+    
+}
+
+.resizable-box#notebox {
+    top: 200px;
+    left: 700px;
+    width: 500px;
+    height: 600px;
+    display: none;
+}
+
+.resizable-box-header {
+    background-color: lightgrey;
+    padding: 5px;
+    cursor: move;
+    font-family: 'GoMono'; 
+    font-weight: bold;
+}
+
+.fixed-box#box3 {
+    position: absolute;
+    top: 50px; 
+    left: 1200px; 
+    width: 700px; 
+    height: auto;
+    overflow: hidden;
+    display: none;
+}
+
+.fixed-box#box4 {
+    position: absolute;
+    top: 690px; 
+    left: 1150px; 
+    width: auto;  
+    max-width: 300px;  
+    height: auto; 
+    overflow: hidden;
+    display: none;
+}
+
+.fixed-box img {
+    width: 100%;
+    height: auto;
+    vertical-align: top; 
+}
+
+.fixed-box{
+    border: 5px solid;
+    border-color: white grey grey white;
+}
+
+.fixed-box-header {
+    background-color: lightgray;
+    padding: 5px;
+    cursor: move;
+    font-family: 'GoMono'; 
+    font-weight: bold;
+}
+
+.fixed-box#box5 {
+    position: absolute;
+    top: 460px;  
+    left: 1530px; 
+    width: auto;
+    max-width: 300px;
+    height: auto;
+    overflow: hidden;
+    display: none;
+}
+
+.fixed-box#box5 img {
+    width: 100%;
+    height: auto;
+    vertical-align: top;
+}
+
+area {
+    cursor: pointer;
+  }

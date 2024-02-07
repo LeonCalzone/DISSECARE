@@ -1,0 +1,208 @@
+@font-face {
+    font-family: 'GoMono';
+    src: url('fonts/Go-Mono.ttf');
+}
+
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: url("images/smallbg.png");
+  }
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(30, 1fr);
+    grid-template-rows: repeat(30, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    height: 100%;
+  }
+  
+.div1 {
+    grid-area: 1 / 1 / 6 / 4;
+    background-color: black;
+    overflow: hidden;
+    border: 5px solid;
+    border-color: darkred rgb(58, 2, 2) rgb(58, 2, 2) darkred;
+}
+.div1 img {
+    width: 100%;
+    height:auto;
+    display: block;
+    margin: auto;
+    
+}
+
+.div2 {
+    grid-area: 6 / 1 / 11 / 4;
+    background-color: black;
+    overflow: hidden;
+    border: 5px solid;
+    border-color: darkred rgb(58, 2, 2) rgb(58, 2, 2) darkred;
+}
+.div2 img {
+    width: 100%;
+    height:auto;
+    display: block;
+    margin: auto;
+}
+
+.div3 {
+    grid-area: 11 / 1 / 16 / 4;
+    background-color: black;
+    overflow: hidden;
+    border: 5px solid;
+    border-color: darkred rgb(58, 2, 2) rgb(58, 2, 2) darkred;
+}
+.div3 img {
+    width: 100%;
+    height:auto;
+    display: block;
+    margin: auto;
+}
+
+.div4 {
+    grid-area: 16 / 1 / 21 / 4;
+    background-color: black;
+    overflow: hidden;
+    border: 5px solid;
+    border-color: darkred rgb(58, 2, 2) rgb(58, 2, 2) darkred;
+}
+.div4 img {
+    width: 100%;
+    height:auto;
+    display: block;
+    margin: auto;
+}
+
+.div5 {
+    grid-area: 21 / 1 / 26 / 4;
+    background-color: black;
+    overflow: hidden;
+    border: 5px solid;
+    border-color: darkred rgb(58, 2, 2) rgb(58, 2, 2) darkred;
+}
+.div5 img {
+    width: 100%;
+    height:auto;
+    display: block;
+    margin: auto;
+}
+
+.div6 {
+    grid-area: 26 / 1 / 31 / 4;
+    background-color: black;
+    overflow: hidden;
+    border: 5px solid;
+    border-color: darkred rgb(58, 2, 2) rgb(58, 2, 2) darkred;
+}
+.div6 img {
+    width: 100%;
+    height:auto;
+    display: block;
+    margin: auto;
+}
+
+.div7 {
+    grid-area: 1 / 4 / 26 / 15;
+    background-color: black;
+}
+.div7 img {
+    width: 725px;
+    
+    display: block;
+    margin: auto;
+ 
+}
+
+.div8 {
+    grid-area: 26 / 4 / 31 / 15;
+    overflow: hidden;
+    border-top: 5px solid black;
+}
+.div8 img {
+    
+    max-height: 100%;
+    display: block;
+    margin: auto;
+    width: 725px;
+
+}
+
+.div9 {
+    grid-area: 5 / 15 / 18 / 22;
+    background-color: black;
+    overflow: hidden;
+    background-image: url("images/smallbg.png");
+    background-size: cover;
+    border: 5px solid;
+    border-color: darkred rgb(58, 2, 2) rgb(58, 2, 2) darkred;
+}
+.div9 img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    margin: auto;
+}
+
+.div10 {
+    grid-area: 18 / 15 / 31 / 22;
+    background-color: black;
+    align-self: end;
+    /* background-image: url("images/smallbg.png");
+    background-size: cover; */
+}
+.div10 img {
+    width: 100%;
+    display: block;
+    margin: auto;
+    justify-content: end;
+    align-self: end;
+    justify-self: end;
+    border: 5px solid;
+    border-color: darkred rgb(58, 2, 2) rgb(58, 2, 2) darkred;
+}
+
+.div11 {
+    grid-area: 1 / 15 / 5 / 31;
+    background-color: black; 
+    overflow: hidden;
+    border: 5px solid;
+    border-color: black;
+}
+.div11 img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    margin: auto;
+    
+}
+
+.div12 {
+    grid-area: 5 / 23 / 31 / 30;
+    background-color: lightgray; 
+    border: 5px solid;
+    border-color: white grey grey white;
+    overflow: hidden;
+    font-size: 15pt;
+    padding: 20px;
+    text-align: justify;
+    font-family: 'GoMono'; 
+    overflow: auto;
+
+}
+.div12 img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    margin: auto;
+}
+
+.div13
+ { grid-area: 5 / 22 / 31 / 23; } 
+
+.div14 
+{ grid-area: 5 / 30 / 31 / 31; } 
+
