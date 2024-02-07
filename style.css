@@ -22,6 +22,7 @@
     font-style: italic;
 }
 
+
 body {
     margin: 0;
     overflow: hidden; 
@@ -251,3 +252,35 @@ background-image: url("images/desktop.png");
 area {
     cursor: pointer;
   }
+
+  .nophone{
+    border: 5px solid;
+    border-color: rgb(255, 150, 138) rgb(204, 67, 52) rgb(204, 67, 52) rgb(255, 150, 138);
+    position: absolute;
+    padding: 10px;
+    background-color: tomato;
+    color: white;
+}
+
+.nophone-header {
+    background-color: tomato;
+    padding: 5px;
+    cursor: move;
+    font-family: 'GoMono'; 
+    font-weight: bold;
+}
+
+  @media (max-width: 1000px) {
+    .nophone {
+            display: show;
+            left:160px;
+            top:400px;
+       }
+    }
+    @media (min-width: 1000px) {
+        .nophone {
+                display: none;
+                left:160px;
+                top:400px;
+           }
+        }
