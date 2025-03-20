@@ -335,3 +335,17 @@ area {
                 max-width: 180px;
             }
         }
+
+        @media (max-width: 2560px) {
+            .resizable-box, .fixed-box {
+                max-width: 90vw;  /* Prevents them from being too wide */
+                max-height: 80vh; /* Prevents them from going off-screen */
+                left: min(80vw, 1200px); /* Adjusts positioning */
+                top: min(70vh, 600px);
+            }
+        
+            .fixed-box img {
+                max-width: 90%; /* Ensures images don't overflow */
+                height: auto;
+            }
+        }
