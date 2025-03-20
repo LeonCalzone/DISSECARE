@@ -199,7 +199,6 @@ body {
 .fixed-box#box3 {
     position: absolute;
     top: 15px; 
-    left: 50%; 
     transform: translateX(-50%); /* Offset by 50% of its own width to center it */
     width: 700px; 
     height: auto;
