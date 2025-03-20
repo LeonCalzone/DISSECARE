@@ -32,7 +32,6 @@ background-size: cover; /* Ensures the image covers the entire viewport */
     background-repeat: no-repeat; /* Prevents repetition of the image */
     margin: 0; /* Ensures no extra space around the body */
     padding: 0; /* Ensures no extra space inside the body */
-    height: 100vh;
 }
 
 .box-content { 
