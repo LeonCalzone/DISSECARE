@@ -331,6 +331,7 @@ area {
         
             .fixed-box#box3 {
                 left: 900px; /* Shifts it left to fit */
+                max-width: 100%;
             }
         
             .fixed-box#box4 {
