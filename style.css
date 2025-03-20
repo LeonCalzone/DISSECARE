@@ -199,10 +199,9 @@ body {
 .fixed-box#box3 {
     position: absolute;
     top: 15px; 
-    left: 1090px; 
-    width: auto;  
-    max-width: 300px;  
-    height: auto; 
+    left: 950px; 
+    width: 700px; 
+    height: auto;
     overflow: hidden;
     display: none;
 }
@@ -331,7 +330,7 @@ area {
             }
         
             .fixed-box#box3 {
-                left: 700px; /* Shifts it left to fit */
+                left: 900px; /* Shifts it left to fit */
             }
         
             .fixed-box#box4 {
