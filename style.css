@@ -24,14 +24,14 @@
 
 
 body {
-    margin: 0; /* Ensures no extra space around the body */
-    padding: 0; /* Ensures no extra space inside the body */
-    overflow: hidden; 
-background-image: url("images/desktop.png");
-background-size: cover; /* Ensures the image covers the entire viewport */
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-image: url("images/desktop.png");
+    background-size: cover; /* Ensures the image covers the entire viewport */
     background-position: center center; /* Centers the background image */
-    background-repeat: no-repeat; /* Prevents repetition of the image */
-    height: 100%;
+    background-repeat: no-repeat;
+    height: 100vh; /* Full height of the viewport */
 }
 
 .box-content { 
