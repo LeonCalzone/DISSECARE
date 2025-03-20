@@ -27,8 +27,7 @@ body {
     margin: 0;
     padding: 0;
     background-image: url("images/desktop.png");
-    background-size: cover; /* Ensure the image covers the entire viewport */
-    background-position: center center; /* Center the image */
+    background-size: 100% 100%;    background-position: center center; /* Center the image */
     background-repeat: no-repeat;
     background-attachment: fixed; /* Keep the background fixed while scrolling */
     height: 100vh; /* Full height of the viewport */
