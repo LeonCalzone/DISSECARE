@@ -27,11 +27,11 @@ body {
     margin: 0;
     padding: 0;
     background-image: url("images/desktop.png");
-    background-size: cover; /* Ensures the image covers the entire viewport */
-    background-position: center center; /* Centers the image in the viewport */
-    background-repeat: no-repeat; /* Prevents image repetition */
-    background-attachment: fixed; /* Keeps the background fixed during scroll */
-    height: 100vh; /* Full height of the viewport */
+    background-size: cover; 
+    background-position: center center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    height: 100vh; 
     min-height: 100vh; /
 }
 
@@ -153,7 +153,7 @@ body {
     border-color: white grey grey white;
     padding: 10px;
     background-color: lightgray;
-    overflow: auto; /* Set overflow property to handle text overflow */
+    overflow: auto; 
     
 }
 
@@ -219,8 +219,8 @@ body {
 
 .fixed-box img {
     width: 100%;
-    height: auto;   /* Make the image fill the container */
-    object-fit: cover;  /* Ensures the image covers the box without stretching */
+    height: auto;   
+    object-fit: cover;  
 }
 
 .fixed-box{
@@ -229,7 +229,7 @@ body {
     position: absolute;
     background-color: lightgray;
     overflow: hidden;
-    max-width: 90vw; /* Make sure images and boxes fit well */
+    max-width: 90vw; 
     max-height: 80vh;
 }
 
@@ -304,15 +304,15 @@ area {
 
         @media (max-width: 2560px) {
             .resizable-box {
-                max-width: 90vw;  /* Prevents oversized boxes */
-                max-height: 80vh; /* Keeps height within screen */
+                max-width: 90vw;  
+                max-height: 80vh; 
             }
         
             .resizable-box#intro {
                 top: 120px;
                 left: 400px;
-                width: 600px; /* Reduced width */
-                height: 500px; /* Reduced height */
+                width: 600px; 
+                height: 500px; 
             }
         
             .resizable-box#casefile {
@@ -347,14 +347,14 @@ area {
 
         @media (max-width: 2560px) {
             .resizable-box, .fixed-box {
-                max-width: 90vw;  /* Prevents them from being too wide */
-                max-height: 80vh; /* Prevents them from going off-screen */
-                left: min(80vw, 1200px); /* Adjusts positioning */
+                max-width: 90vw;  
+                max-height: 80vh; 
+                left: min(80vw, 1200px); 
                 top: min(70vh, 600px);
             }
         
             .fixed-box img {
-                max-width: 100%; /* Ensures images don't overflow */
+                max-width: 100%; 
                 height: auto;
             }
             
