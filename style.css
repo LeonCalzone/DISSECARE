@@ -199,7 +199,7 @@ body {
 .fixed-box#box3 {
     position: absolute;
     top: 15px; 
-    left: 50%; 
+    left: 950px; 
     width: 700px; 
     height: auto;
     overflow: hidden;
