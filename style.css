@@ -228,7 +228,6 @@ body {
     border: 5px solid;
     border-color: white grey grey white;
     position: absolute;
-    padding: 10px;
     background-color: lightgray;
     overflow: hidden;
     max-width: 90vw; /* Make sure images and boxes fit well */
