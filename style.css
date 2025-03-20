@@ -359,9 +359,3 @@ area {
             }
             
         }
-
-        @media (max-width: 3000px) {
-            .fixed-box#box3 {
-                left: 750px; /* Adjust box position */
-            }
-        }
