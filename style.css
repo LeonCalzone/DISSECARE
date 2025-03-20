@@ -199,7 +199,9 @@ body {
 .fixed-box#box3 {
     position: absolute;
     top: 15px; 
-    left: 950px; 
+    left: 50%; /* Centering horizontally */
+    z-index: 1000;
+    transform: translateX(-50%); /
     width: 700px; 
     height: auto;
     overflow: hidden;
