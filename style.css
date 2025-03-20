@@ -220,14 +220,19 @@ body {
 .fixed-box img {
     width: 100%;
     vertical-align: top; 
-    height: 100%;   /* Make the image fill the container */
+    height: auto;   /* Make the image fill the container */
     object-fit: cover;  /* Ensures the image covers the box without stretching */
-    vertical-align: top;
 }
 
 .fixed-box{
     border: 5px solid;
     border-color: white grey grey white;
+    position: absolute;
+    padding: 10px;
+    background-color: lightgray;
+    overflow: hidden;
+    max-width: 90vw; /* Make sure images and boxes fit well */
+    max-height: 80vh;
 }
 
 .fixed-box-header {
@@ -355,21 +360,4 @@ area {
             }
         }
 
-        @media (max-width: 1000px) {
-            .resizable-box {
-                width: 90vw;  /* Prevents boxes from going off-screen */
-                height: 80vh;  /* Keeps the boxes within viewport height */
-            }
-            
-            /* Fixed box adjustments for smaller screens */
-            .fixed-box {
-                width: 90vw;
-                max-height: 80vh;
-            }
-            
-            .fixed-box img {
-                width: 100%;
-                height: auto;
-                object-fit: cover;
-            }
-        }
+        
