@@ -33,6 +33,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed; /* Keeps the background image fixed */
     height: 100vh;
+    height: 100%;
 }
 
 .box-content { 
