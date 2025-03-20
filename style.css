@@ -27,9 +27,8 @@ body {
     margin: 0;
     overflow: hidden; 
 background-image: url("images/desktop.png");
-background-size: contain; /* Ensures the whole background is visible */
-    background-position: center;
-    background-repeat: no-repeat;
+background-size: 100% 100%;
+background-position: center;
     height: 100vh;
 }
 
@@ -295,24 +294,58 @@ area {
                 }
         }
 
-        /* Box styling to remove unwanted margins/padding */
-.box {
-  padding: 0; /* Ensure no padding within the boxes */
-  margin: 0 auto; /* Center the boxes if needed */
-}
+        @media (max-width: 2560px) {
+            .resizable-box {
+                max-width: 90vw;  /* Prevents oversized boxes */
+                max-height: 80vh; /* Keeps height within screen */
+            }
+        
+            .resizable-box#intro {
+                top: 120px;
+                left: 400px;
+                width: 600px; /* Reduced width */
+                height: 500px; /* Reduced height */
+            }
+        
+            .resizable-box#casefile {
+                top: 90px;
+                left: 120px;
+                width: 350px; 
+                height: 450px;
+            }
+        
+            .resizable-box#notebox {
+                top: 180px;
+                left: 500px;
+                width: 400px;
+                height: 550px;
+            }
+        
+            .fixed-box#box3 {
+                left: 850px; /* Shifts it left to fit */
+            }
+        
+            .fixed-box#box4 {
+                left: 1000px;
+                max-width: 250px;
+            }
+        
+            .fixed-box#box5 {
+                left: 1300px;
+                max-width: 180px;
+            }
+        }
 
-/* Styling for the images inside the boxes */
-.box img {
-  width: 100%; /* Ensure images take up the full width of the container */
-  height: auto; /* Maintain aspect ratio */
-  display: block; /* Prevent unwanted spaces below the image */
-  margin: 0 auto; /* Center the image within the box */
-  box-sizing: border-box; /* Make sure padding and border are included in the width calculation */
-}
-
-/* Additional styling for each box to ensure proper layout */
-#box3, #box4, #box5 {
-  display: block; /* Block-level so they fill their container */
-  padding: 10px; /* Add some padding if necessary */
-  box-sizing: border-box;
-}
+        @media (max-width: 2560px) {
+            .resizable-box, .fixed-box {
+                max-width: 90vw;  /* Prevents them from being too wide */
+                max-height: 80vh; /* Prevents them from going off-screen */
+                left: min(80vw, 1200px); /* Adjusts positioning */
+                top: min(70vh, 600px);
+            }
+        
+            .fixed-box img {
+                max-width: 90%; /* Ensures images don't overflow */
+                height: auto;
+            }
+        }
