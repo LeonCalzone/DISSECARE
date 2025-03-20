@@ -27,11 +27,12 @@ body {
     margin: 0;
     padding: 0;
     background-image: url("images/desktop.png");
-    background-size: 100% 100%;    background-position: center center; /* Center the image */
-    background-repeat: no-repeat;
-    background-attachment: fixed; /* Keep the background fixed while scrolling */
+    background-size: cover; /* Ensures the image covers the entire viewport */
+    background-position: center center; /* Centers the image in the viewport */
+    background-repeat: no-repeat; /* Prevents image repetition */
+    background-attachment: fixed; /* Keeps the background fixed during scroll */
     height: 100vh; /* Full height of the viewport */
-    min-height: 100vh;
+    min-height: 100vh; /
 }
 
 .box-content { 
