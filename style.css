@@ -330,7 +330,7 @@ area {
             }
         
             .fixed-box#box3 {
-                left: 850px; /* Shifts it left to fit */
+                left: 900px; /* Shifts it left to fit */
             }
         
             .fixed-box#box4 {
@@ -356,6 +356,5 @@ area {
                 max-width: 100%; /* Ensures images don't overflow */
                 height: auto;
             }
+            
         }
-
-        
