@@ -295,24 +295,4 @@ area {
                 }
         }
 
-        /* Box styling to remove unwanted margins/padding */
-.box {
-    padding: 0; /* Ensure no padding within the boxes */
-    margin: 0 auto; /* Center the boxes if needed */
-  }
-  
-  /* Styling for the images inside the boxes */
-  .box img {
-    width: 100%; /* Ensure images take up the full width of the container */
-    height: auto; /* Maintain aspect ratio */
-    display: block; /* Prevent unwanted spaces below the image */
-    margin: 0 auto; /* Center the image within the box */
-    box-sizing: border-box; /* Make sure padding and border are included in the width calculation */
-  }
-  
-  /* Additional styling for each box to ensure proper layout */
-  #box3, #box4, #box5 {
-    display: block; /* Block-level so they fill their container */
-    padding: 10px; /* Add some padding if necessary */
-    box-sizing: border-box;
-  }
+        
