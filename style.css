@@ -219,8 +219,10 @@ body {
 
 .fixed-box img {
     width: 100%;
-    height: auto;
     vertical-align: top; 
+    height: 100%;   /* Make the image fill the container */
+    object-fit: cover;  /* Ensures the image covers the box without stretching */
+    vertical-align: top;
 }
 
 .fixed-box{
