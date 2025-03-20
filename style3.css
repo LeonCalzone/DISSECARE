@@ -110,8 +110,8 @@ html, body {
     background-color: black;
 }
 .div7 img {
-    width: 100%;
-    
+    /*width: 605px;*/
+    width: 539px;
     display: block;
     margin: auto;
  overflow: hidden;
