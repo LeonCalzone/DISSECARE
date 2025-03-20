@@ -355,7 +355,7 @@ area {
             }
         
             .fixed-box img {
-                max-width: 100%; /* Ensures images don't overflow */
+                max-width: 90%; /* Ensures images don't overflow */
                 height: auto;
             }
         }
