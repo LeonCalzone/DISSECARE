@@ -360,4 +360,6 @@ area {
             
         }
 
-  
+        .toggle-item.open {
+            display: block;
+        }

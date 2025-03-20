@@ -71,3 +71,6 @@ function updateContent(imageSrc, textContent) {
     // Update the text content
     document.getElementById('displayedText').textContent = textContent;
   }
+
+
+  
